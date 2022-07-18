@@ -1,0 +1,60 @@
+
+<style>
+ 
+ .cl{
+
+	background-color: lightgray; 
+	width: 700px;
+	height: 200px;
+	font-size:25px;
+	color:#32334A;
+
+ }
+
+
+
+
+</style>
+
+
+
+<body bgcolor="lightgray">
+
+	<center>
+	<fieldset style="background-color:#878AC7; border: 8px groove lightgrey; width:900px; height:700px;">
+	
+
+		<br/><br/>
+		<h1 style="color:#32334A"><i>Output Text-</i></h1>
+		<textarea  id="d2" class="cl"></textarea><br/><br/>
+	 
+		<hr width="80%"/>
+
+		<div id="div2"><h3 C>
+			<h1 style="color:#32334A"><i>Input Text-</i></h1>
+			
+			
+			<textarea  id= "d4" class="cl"    onkeyup ="fun5()" ></textarea>
+		
+		</div>
+	
+	
+	</fieldset>
+</center>
+
+
+
+	<script>
+
+		function fun5(){
+	
+			var x = document.getElementById("d2");
+			z1 = document.getElementById("d4");
+			x.innerHTML = z1.value ;
+			
+	   }
+
+	</script>
+
+
+</body>
